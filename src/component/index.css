@@ -1,0 +1,9 @@
+.input{
+    display: inline-block;
+    width: 20%;
+    margin-left: 10px;
+}
+.form-item{
+    text-align: center;
+    padding: 20px;
+}
