@@ -3,7 +3,7 @@ import { Input, Select } from 'antd';
 import FormItem from './FormItem';
 const { Option } = Select;
 
-const Test = ({
+const MyInput = ({
     type,
     label,
     required,
@@ -15,7 +15,7 @@ const Test = ({
     return (<div>
         <FormItem label={label} meta={meta} required={required}>
             {
-                type === 'input' && <Input
+                type === 'text' && <Input
                     size='small'
                     {...input}
                     value={input.value || ""}
@@ -37,4 +37,4 @@ const Test = ({
     </div>)
 }
 
-export default Test
+export default MyInput

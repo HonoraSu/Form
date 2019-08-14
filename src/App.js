@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Test from './component/Test'
+// import Test from './component/Test'
 import './App.css';
 import 'antd/dist/antd.css';
 import { Provider } from 'react-redux';
-import Form from './component/Form'
+import Form from './component/Form';
 import { createStore, combineReducers } from 'redux'
 import { reducer as formReducer } from 'redux-form';
 
